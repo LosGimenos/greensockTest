@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Greensock Animation Test!</title>
+</head>
+<body>
+
+<h1>GREENSOCK TEST PLAYA!!</h1>
+
+<img src="https://farm4.staticflickr.com/3936/15416213716_2d86475bb8_c.jpg" id="img" width="200px" height="200px"/>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+
+<script type="text/javascript">
+  window.onload = function() {
+    TweenLite.to(document.querySelector('#img'), 2, {x: 100, rotation: 180})
+  }
+
+</script>
+</body>
+</html>
